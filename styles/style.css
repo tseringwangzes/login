@@ -16,3 +16,9 @@ h4 {
   top: 100px;
   
 }
+
+.heading-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
