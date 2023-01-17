@@ -1,0 +1,19 @@
+html {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.head {
+  width: 7%;
+  height: 7%;
+  display: inline-block;
+}
+
+h4 {
+  display: inline;
+  text-shadow: 3px 0px 3px  grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  top: 100px;
+  
+}
