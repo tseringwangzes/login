@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    background: #00b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+::selector {
+    color: #ececec;
+    background: #00b3ff;
+}
+
+.form {
+    position: relative;
+    background: #f2f3f7;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: -3px 3px 10px -5px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+
+}
+
+.form h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form p {
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.form .form .grid-details {
+    display: flex;
+}
+
+.form .grid-details .input:first-child {
+    margin-right: 8px;
+    width: 100%;
+}
+
+.form .grid-details .input:last-child {
+    margin-right: 8px;
+    width: 100%;
+}
+
+.form form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form form .input:focus,
+.form form .input input:valid {
+    border: 2px solid #00b3ff;
+    transition: 0.1s ease;
+    outline: none;
+}
+
+.form form input.button {
+    height: 45px;
+    border: none;
+    color: #f2f3f7;
+    width: 100%;
+    background: #006692;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 13px;
+    border: 2px solid #2983aa;
+}
+
+.form .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form .link a {
+    color: #006692;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.form .link a:hover {
+    text-decoration: underline;
+}
+
+.form form .btn-group btn-group button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 100%;
+    /*Set a width if needed*/
+    display: block;
+    /* Make the buttons appear below each other */
+}
+
+.form form .btn-group btn-group button:not(:last-child) {
+    border-bottom: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.form form .btn-group btn-group button:hover {
+    background-color: #3e8e41;
+}
